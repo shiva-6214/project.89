@@ -16,30 +16,61 @@
         integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous">
     </script>
 
-    <link rel="stylesheet" type="text/css" href="style.css">\
+    <link rel="stylesheet" type="text/css" href="style.css">
     <script src="quiz_login.js"></script>
 </head>
 
 <body>
     <div class="container">
-		<div class="card my-5">
-			<div class="card-body">
-				<h2 class="card-title text-center">Player 1 Login for the game</h2>
-				
-				<div class="form-group">
-					<label for="exampleInputEmail1">User Name:</label>
-					<input type="name" class="form-control text-success" id="txt_userName1" placeholder="Player 1 Name">
-				</div>
+        <!-- <div class="card my-5">
+            <div class="card-body">
+                <h2 class="card-title text-center">Player 1 Login for the game</h2>
 
-				<div class="form-group">
-					<label for="exampleInputEmail1">User Name:</label>
-					<input type="name" class="form-control text-success" id="txt_userName2" placeholder="Player 2 Name">
-				</div>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">User Name:</label>
+                    <input type="name" class="form-control text-success" id="txt_userName1" placeholder="Player 1 Name">
+                </div>
 
-				<button class="btn btn-success" onclick="addUser()">Login</button>
-			</div>
-		</div>
-	</div>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">User Name:</label>
+                    <input type="name" class="form-control text-success" id="txt_userName2" placeholder="Player 2 Name">
+                </div>
+
+                <button class="btn btn-success" onclick="addUser()">Login</button>
+            </div>
+        </div> -->
+
+        <section class="myform-area">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="form-area login-form">
+                            <div class="form-content">
+                                <h2>Login</h2>
+                                <p>Login to maths quiz game!!!</p>
+                            </div>
+                            <div class="form-input">
+                                <h2>Login Form</h2>
+                                <form>
+                                    <div class="form-group">
+                                        <input type="text" id="player1_text" name="player1" required>
+                                        <label>Player 1</label>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="text" id="player2_text" name="player2" required>
+                                        <label>Player 2</label>
+                                    </div>
+                                    <div class="myform-button">
+                                        <button class="myform-btn">Login</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
 </body>
 
 </html>
